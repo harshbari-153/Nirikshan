@@ -23,7 +23,7 @@ st.markdown("""
 
 # GitHub setup
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
-REPO_NAME = "Nirakshan"
+REPO_NAME = "Nirikshan"
 CSV_FILE = "activity_records.csv"
 g = Github(GITHUB_TOKEN)
 repo = g.get_user().get_repo(REPO_NAME)
